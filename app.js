@@ -6,6 +6,8 @@ require('colors');
 var fetchWeather = require('./fetch-weather');
 var prepareForWeather = require('./prepared-for-the-weather');
 
+var SampleSecret = "5ccdd769e-40e4-566d-823s-as5823f4wee8";
+
 var commandLineArgs = require("command-line-args");
 
 var cli = commandLineArgs([
